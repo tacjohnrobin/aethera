@@ -26,37 +26,37 @@ export default function DreamChamberSection() {
 							alt="Main Character"
 							width={550}
 							height={520}
-							className="object-contain drop-shadow-2xl"
+							className=" drop-shadow-2xl"
 						/>
 					</div>
 
 					{/* Discord-style chat */}
-					<div className="absolute bottom-[-80px] left-6 space-y-2 z-20 max-w-md w-[320px]">
+					<div className="absolute bottom-[-80px] sm:bottom-[-80px] left-10 space-y-2 z-20 max-w-sm md:max-w-md">
 						<div className="bg-gradient-to-r from-[#6a11cb] to-[#2575fc] p-2 rounded-xl text-white shadow-lg">
-							<div className="flex items-center space-x-3">
+							<div className="flex items-center space-x-3 w-fit">
 								<div className="w-8 h-8 bg-pink-500 text-white font-bold rounded-full flex items-center justify-center text-sm">
 									M
 								</div>
 								<div className="flex flex-col">
-									<span className="text-sm">
+									<span className="text-[10px] sm:text-sm">
 										New capsule preview dropping soon... ✨
 									</span>
-									<span className="text-xs text-white/70">
+									<span className="text-[8px] sm:text-xs text-white/70">
 										Mika • 2 minutes ago
 									</span>
 								</div>
 							</div>
 						</div>
-						<div className="bg-gradient-to-r from-[#373b44] to-[#4286f4] p-4 rounded-xl text-white shadow-lg">
+						<div className=" bg-gradient-to-r from-[#373b44] to-[#4286f4] p-4 rounded-xl text-white shadow-lg">
 							<div className="flex items-center space-x-3">
 								<div className="w-8 h-8 bg-blue-600 text-white font-bold rounded-full flex items-center justify-center text-sm">
 									D
 								</div>
 								<div className="flex flex-col">
-									<span className="text-sm">
+									<span className="text-[10px] sm:text-sm">
 										The latest capsule was absolutely ethereal! 💜
 									</span>
-									<span className="text-xs text-white/70">
+									<span className="text-[8px] sm:text-xs text-white/70">
 										Dreamer • 5 minutes ago
 									</span>
 								</div>
